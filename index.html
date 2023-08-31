@@ -197,7 +197,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="Joseph-Ceo" alt="Joseph" style="width:100%">
+        <img src="Joseph-Ceo.jpg" alt="Joseph" style="width:100%">
         <div class="w3-container">
           <h3>Joseph Farbain</h3>
           <p class="w3-opacity">CEO & Founder</p>
@@ -233,13 +233,13 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <script>
 document.getElementById("emailLink").addEventListener("click", function(event) {
-  event.preventDefault(); // Prevent the link from navigating
+  event.preventDefault();
 
   var subjectInput = document.getElementById("subject").value;
   var encodedSubject = encodeURIComponent(subjectInput);
   var emailLink = "mailto:joseph.fairbairn@tbc.school?subject=" + encodedSubject;
 
-  window.location.href = emailLink; // Redirect to the email client with the link
+  window.location.href = emailLink;
 });
 </script>
 
